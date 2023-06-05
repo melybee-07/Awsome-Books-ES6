@@ -2,7 +2,7 @@
 
 <div align="center">
 
-  <h3><b>Awsome Books
+  <h3><b>Awsome Books - ES6
 </b></h3>
 
 </div>
@@ -29,9 +29,9 @@
 - [❓ FAQ (OPTIONAL)](#faq)
 - [📝 License](#license)
 
-# 📖 [Awsome Books] <a name="about-project"></a>
+# 📖 [Awsome Books - ES6] <a name="about-project"></a>
 
-**[Awsome Books]** This is a simple web application that allows users to create and manage a collection of books. It is implemented using plain JavaScript and localStorage for data persistence.
+**[Awsome Books - ES6]** This project is a restructure of the Awesome books app code by using ES6. fully functional website that allows you to manage a collection of books. It includes features such as displaying a list of books, adding new books, providing contact information and displaying the date and the time.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -44,6 +44,7 @@
   <li>CSS3</li>
   <li>Linters</li>
   <li>JavaScript</li>
+  <li>Luxon</li>
 </ul>
 
 <details>
@@ -53,6 +54,7 @@
     <li><a href="https://github.com/microverseinc/linters-config/tree/master/html-css-js">HTML</a></li>
     <li><a href="https://github.com/microverseinc/linters-config/tree/master/html-css-js">CSS</a></li>
     <li><a href="https://github.com/microverseinc/linters-config/tree/master/html-css-js">JS</a></li>
+    <li><a href="https://cdnjs.cloudflare.com/ajax/libs/luxon/1.27.0/luxon.min.js">Luxon</a></li>
   </ul>
 </details>
 
@@ -60,10 +62,13 @@
 
 ### Key Features <a name="key-features"></a>
 
-- Add a new book to the collection by providing the title and author.
-- Remove a book from the collection.
-- Display all books saved in the collection on the page.
-- Preserve data in the browser's memory using localStorage.
+The Awesome Books website provides the following features:
+
+- Books List: View a list of all the books in your collection.
+  Add Book Form: Add a new book to the collection by providing its title and author.
+- Contact Info: Access contact information, including phone number and email address.
+- Navigation Bar: Easily navigate between different sections of the website.
+- Footer: Display the copyright information for the Awesome Books app.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -72,8 +77,7 @@
 ## 🚀 Live Demo <a name="live-demo"></a>
 
 <ul>
-  <li><a href="https://melybee-07.github.io/Awesome-books/">Live Demo Link</a></li>
-  <li><a href="https://melybee-07.github.io/Awesome-books/"><img src="./Capture d'écran 2023-05-29 121415.png"></a></li>
+  <li><a href="https://melybee-07.github.io/Awesome-books-ES6/">Live Demo Link</a></li>
 </ul>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -86,7 +90,7 @@
 
 1. Clone this repository to your desired folder:
 
-git clone https://github.com/melybee-07/Awesome-books.git
+git clone https://github.com/melybee-07/Awesome-books-ES6.git
 
 2. Open the project directory: cd Awsome-Books
 
@@ -95,7 +99,8 @@ git clone https://github.com/melybee-07/Awesome-books.git
 Install this project with:
 
 <ul>
-  <li>you need to install the Linters for the  <a href="https://github.com/microverseinc/linters-config/tree/master/html-css-js">HTML-CSS & JS </a> Documents</li>
+  <li>Install the Linters for the  <a href="https://github.com/microverseinc/linters-config/tree/master/html-css-js">HTML-CSS & JS </a> Documents</li>
+  <li>Install the <a href="https://cdnjs.cloudflare.com/ajax/libs/luxon/1.27.0/luxon.min.js">Luxon Library </a></li>
 </ul>
 
 ### Usage
@@ -126,18 +131,15 @@ to run the tests to make sure no Linters errors, run the following command:
 
 ### 🔭 Future Features <a name="Future Features"></a>
 
-- Project 1: Manage books collection (plain JS with objects).
-- Project 2: Manage books collection (plain JS with classes) and add basic CSS.
-- Project 3: Create a complete website with navigation.
+- recreating the Awsome Book project
+- using ES6, modals, arrow functions
+- implemanting a timer using Luxon Library
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- CONTRIBUTING -->
 
 ## 🤝 Contributing <a name="contributing"></a>
-
-- GitHub: [@SAZZAD1Q2](https://github.com/SAZZAD1Q2)
-- Twitter: [@SazzadShaikh11](https://twitter.com/sazzadshaikh11)
 
 Contributions are welcome! If you find any issues or have suggestions for improvements, please feel free to open an issue or submit a pull request.
 
