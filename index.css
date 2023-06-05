@@ -1,23 +1,19 @@
 body {
   font-family: Arial, Helvetica, sans-serif;
   margin-top: 50px;
+  background-image: url("./img/alfons-morales-YLSwjSy7stw-unsplash.jpg");
+  overflow-x: hidden;
+  position: relative;
 }
 
 nav {
-  background-color: #f5f5f5;
+  background-color: rgba(23, 23, 23, 0.9);
   position: fixed;
   top: 0;
   left: 0%;
   width: 100%;
   z-index: 999;
-}
-
-ul {
-  padding: 0;
-  display: table;
-  width: 100%;
-  height: 100%;
-  margin: 0;
+  color: #fbfafb;
 }
 
 nav ul {
@@ -28,14 +24,6 @@ nav ul {
   align-items: center;
   justify-content: flex-end;
   width: 100%;
-}
-
-li {
-  list-style: none;
-  height: 60px;
-  display: flex;
-  align-items: center;
-  padding-left: 20px;
 }
 
 nav ul li {
@@ -56,23 +44,31 @@ nav li h1 {
 }
 
 nav ul li a {
-  color: #333;
+  color: #faf5f9;
   text-decoration: none;
   font-size: 18px;
   padding: 10px;
 }
 
 nav ul li a:hover {
-  color: #546cf7;
+  color: #54f4f7;
 }
 
 #dateTime {
-  padding-top: 20px;
-  padding-left: 1060px;
+  margin-top: 70px;
+  margin-left: 1000px;
+  width: 200px;
+  background-color: #54f4f7;
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 8px;
+  font-weight: 700;
+  box-shadow: 1px 4px 8px black;
 }
 
 main {
   padding-top: 60px;
+  position: relative;
 }
 
 section {
@@ -82,8 +78,22 @@ section {
   text-align: center;
 }
 
+#booksSection {
+  background-color: rgba(23, 23, 23, 0.9);
+  padding: 12px;
+  border-radius: 12px;
+  box-shadow: 1px 4px 8px hsl(0, 0%, 0%);
+  margin-bottom: 100px;
+}
+
+#booksSection h1 {
+  color: #faf5f9;
+  font-size: 26px;
+}
+
 #bookList {
-  border: 2px solid black;
+  background-color: rgba(248, 243, 238, 0.657);
+  border-radius: 8px;
   width: 80%;
   margin: 16px auto;
   font-size: 16px;
@@ -91,34 +101,99 @@ section {
   display: block;
 }
 
+#bookList ul {
+  padding: 0;
+  display: table;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  border-radius: 8px;
+}
+
+#bookList li {
+  list-style: none;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  padding-left: 20px;
+  border-radius: 8px;
+}
+
 #addBookSection {
   display: none;
+  background-color: rgba(23, 23, 23, 0.9);
+  padding: 12px;
+  border-radius: 12px;
+  box-shadow: 1px 4px 8px hsl(0, 0%, 0%);
+}
+
+#addBookSection h1 {
+  color: #faf5f9;
+  font-size: 26px;
 }
 
 #contactSection {
   display: none;
+  background-color: rgba(23, 23, 23, 0.9);
+  padding: 12px;
+  border-radius: 12px;
+  box-shadow: 1px 4px 8px hsl(0, 0%, 0%);
+  color: #faf5f9;
+}
+
+#contactSection h1 {
+  color: #faf5f9;
+  font-size: 26px;
 }
 
 footer {
-  background-color: #f5f5f5;
-  padding: 10px;
+  background-color: #d0f5be;
   text-align: center;
+  font-size: 16px;
+  font-weight: 600;
   position: fixed;
   bottom: 0;
   left: 0;
   width: 100%;
-}
-
-footer p {
-  margin: 0;
+  z-index: 999;
 }
 
 #bookForm {
   display: flex;
   flex-direction: column;
-  width: 30%;
+  width: 60%;
   margin: 50px auto;
   position: relative;
+}
+
+#bookForm button {
+  width: 6rem;
+  cursor: pointer;
+  font-size: 16px;
+  padding: 6px;
+  border-radius: 5px;
+  background-color: #54f4f7;
+  border: 0;
+  font-weight: 700;
+  color: black;
+}
+
+#bookList button {
+  width: 6rem;
+  cursor: pointer;
+  position: absolute;
+  right: 3%;
+  font-size: 16px;
+  padding: 6px;
+  border-radius: 5px;
+  background-color: #faf5f9;
+  font-weight: 400;
+  border: 0;
+}
+
+#bookForm button:hover {
+  background-color: #0d8a8c;
+  color: #faf5f9;
 }
 
 input {
@@ -127,24 +202,13 @@ input {
   font-size: 16px;
 }
 
-button {
-  width: 6rem;
-  cursor: pointer;
-  position: absolute;
-  right: 3%;
-  font-size: 16px;
+#bookList button:hover {
+  background-color: #e7e4e6;
+  color: #4adee1;
 }
 
 #AddButton {
   position: absolute;
   right: 0;
   top: 100%;
-}
-
-li:nth-child(odd) {
-  background-color: #fbfdfd;
-}
-
-li:nth-child(even) {
-  background-color: #faf5f9;
 }
