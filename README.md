@@ -13,6 +13,7 @@
   - [🛠 Built With](#built-with)
     - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
+    - [🚀 Live Demo](#live-demo)
 - [💻 Getting Started](#getting-started)
   - [Setup](#setup)
   - [Prerequisites](#prerequisites)
@@ -68,6 +69,17 @@ The Awesome Books website provides the following features:
 - Contact Info: Access contact information, including phone number and email address.
 - Navigation Bar: Easily navigate between different sections of the website.
 - Footer: Display the copyright information for the Awesome Books app.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- LIVE DEMO -->
+
+## 🚀 Live Demo <a name="live-demo"></a>
+
+<ul>
+  <li><a href="https://melybee-07.github.io/Awsome-Books-ES6/">Live Demo Link</a></li>
+  <li><a href="https://melybee-07.github.io/Awsome-Books-ES6/"><img src="./img/Capture d'écran 2023-06-13 115203.png"></a></li>
+</ul>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
